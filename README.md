@@ -30,16 +30,10 @@ Before continuing with this attempt, I tried adjusting the original groupings wh
 
 <img src="Images/fit_model4.png" alt="Attemp 4">
 
-<p>We observe considerable improvement over time in the graph of attempt #4's accuracy value over the course of fitting the model, thought the graph still plateaus around 74% with less variation than the previous attempt.</p>
+<p>We observe considerable improvement over time in the graph of attempt #4's accuracy value over the course of fitting the model, though the graph still plateaus around 74% with less variation than the previous attempt.</p>
 
-There are a lot of layers to the data we're feeding the model, so I thought increasing the complexity could show a improvement. Increasing the complexity through each attempt has shown improvement, though the strucutre of the model hasn't quite reached the target goal of 75% accuracy.
+There are a lot of layers to the data we're feeding the model, so I thought increasing the complexity could show a improvement. Increasing the complexity through each attempt has shown minor improvement, though the strucutre of the model hasn't reached the target goal of 75% accuracy.
 
 ## Results
-Write an analysis that includes a title and multiple sections, labeled with headers and subheaders (4 points)
-Format images in the report so that they display correction (2)
-Explain the purpose of the analysis (4)
-Answer all 6 questions in the results section (10)
-Summarize the overall results of your model (4)
-Describe how you could use a different model to solve the same problem, and explain why you would use that model (6)
-
-# Summary
+Overall, the model has shown us that with complex problems and projects come complex models that we need to work with. There are a lot of "buckets" we're working with for Alphabet Soup Charity's application process, so there are needs to be a complex model made. Although the model's potential hasn't been reached, there is still a considerable amount of lesson to be learned from this project. <br>
+For the next attempt, I would explore the difference in result by playing with the activation functions, and more layers. Increasing complexity increases runtime significantly, so this was an obstacle in working with this project. If more time was available, I could explore this more to see how each factor affects our results. For example, we're experiencing quite high less with each fitting, so I could explore ways to decrease this- either by changing the layering activation functions and by playing with the order.
