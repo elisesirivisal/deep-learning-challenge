@@ -21,14 +21,14 @@ I was still not able to reach target model performance, with the accuracy at abo
 <p>Attempt 3 <br>
 For my third attempt, I tried changing the applicaitons to be bucketed under "Other" together as well as the cutoff for classification, but the results seemed to be about the same with only a minor improvement in accuracy - approximately 72.70%. I tried to increase the complexity again, not by adding layers but by adding more neurons. I took the number of types of applications (17) and multiplied it by the classifications (71) and got 923 so I chose that for the number of neurons for the first layer. For the second layer, I just chose 71 for the number of neurons. </p>
 
-<img src="fit_model3.png" alt="Image">
+<img src="Images/fit_model3.png" alt="Attempt 3">
 
 <p>In the image above, which shows the accuracy history throughout the model fitting process, we observe that the graph itself is quite inconsistent, although it does plateaus around 74%, with some variation.</p>
 
 <p>Attempt 4 <br>
 Before continuing with this attempt, I tried adjusting the original groupings when cleaning the data since they were originally a bit random. I grouped "other" by the applications types that had less than 10 applicants. I chose to stick with epochs at 100 since that seems to be about where the graph begins to plateau (ie. where the model seems to have a stagnant value for its accuracy). Once again, the model experiences slight improvement with acceptable results, but nothing new, with accuracy plateauing around 74% again. The accuracy landed at approximately 72.70% this attempt. </p>
 
-<img src="fit_model4.png" alt="Image">
+<img src="Images/fit_model4.png" alt="Attemp 4">
 
 <p>We observe considerable improvement over time in the graph of attempt #4's accuracy value over the course of fitting the model, thought the graph still plateaus around 74% with less variation than the previous attempt.</p>
 
